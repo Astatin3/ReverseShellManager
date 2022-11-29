@@ -1,8 +1,17 @@
 # ReverseShellManager
 Reverse Shell Manager made in VB.net
 
-+ Manage multiple reverse shells on one port
-+ v4.0 VB.net
-+ Change default port (8888) by command line args: reverseshellmanager.exe <port>
+Manage multiple reverse shells on one port
 
-![Media/Usage%20Example.webm](Media/Usage%20Example.gif)
+Basiclly the same thing as the original but with some added functionality
+
+```
+### Main Commandline Tools
+li/list        - List all connected clients
+   info <id>   - Get client info
+sh/shell <id>  - Connect to shell of selected client
+br/broadcast   - Send command to all clients
+id/identify    - Identify all clients
+ ?/help        - This help page
+    about       - Some shameless self promotion
+```
